@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages="br.com.mobicare.controller")
-@EnableJpaRepositories("br.com.mobicare.repository")
-@EntityScan("br.com.mobicare.model")
+@ComponentScan(basePackages="br.com.matheus.oliveira.controller")
+@EnableJpaRepositories("br.com.matheus.oliveira.repository")
+@EntityScan("br.com.matheus.oliveira.model")
 public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
